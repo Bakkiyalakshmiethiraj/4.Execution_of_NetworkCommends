@@ -42,7 +42,7 @@ while True:
         ```
 
 ## server
-```py
+```
 import socket 
 s=socket.socket() 
 s.connect(('localhost',8000)) 
@@ -60,15 +60,18 @@ print(result,unans)
 ```
 ## Output
 ping command
+
 CLIENT:
 
 ![Screenshot 2024-04-27 111311](https://github.com/Bakkiyalakshmiethiraj/4.Execution_of_NetworkCommends/assets/144870983/0a9b768b-d6e4-4804-b691-347211d4630d)
 
 SERVER:
 
+![Screenshot 2024-04-27 111413](https://github.com/Bakkiyalakshmiethiraj/4.Execution_of_NetworkCommends/assets/144870983/314d9f57-ba08-405a-880b-a593d2350542)
 
 TRANCEROUTE COMMAND:
 
+![Screenshot 2024-04-27 111500](https://github.com/Bakkiyalakshmiethiraj/4.Execution_of_NetworkCommends/assets/144870983/710dbf5b-b0cf-4904-b67b-016fa9d529d4)
 
 ## Result
 Thus Execution of Network commands Performed 
