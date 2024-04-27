@@ -42,6 +42,24 @@ while True:
         ```
 
 ## server
+```py
+import socket 
+s=socket.socket() 
+s.connect(('localhost',8000)) 
+while True: 
+    ip=input("Enter the website you want to ping ") 
+    s.send(ip.encode()) 
+    print(s.recv(1024).decode())
+```
+## Tranceroute command
+```py
+from scapy.all import* 
+target = ["www.google.com"] 
+result, unans = traceroute(target,maxttl=32) 
+print(result,unans)
+```
+
+## server
 ```
 import socket 
 s=socket.socket() 
@@ -50,7 +68,7 @@ while True:
     ip=input("Enter the website you want to ping ") 
     s.send(ip.encode()) 
     print(s.recv(1024).decode())
-    ```
+```
 ## Tranceroute command
 ```py
 from scapy.all import* 
